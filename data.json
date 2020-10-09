@@ -1,0 +1,18 @@
+﻿{
+    "data":[
+        {
+            "title":"a",
+            "description":"aa",
+            "price":1,
+			"type": "主機板",
+            "src":"./images/a.png"
+        },
+        {
+            "title":"b",
+            "description":"bb",
+            "price":2,
+			"type": "主機板",
+            "src":"./images/b.png"
+        }
+    ]
+}

@@ -8,31 +8,25 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-using Newtonsoft.Json;
-
 namespace OrderSystem
 {
     public partial class Main : Form
     {
+        private Controller _controller = new Controller();
         public Main()
         {
             InitializeComponent();
         }
-
-        private void Form1_Load(object sender, EventArgs e)
+        /// <summary>
+        /// 表單讀取
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void FormLoad(object sender, EventArgs e)
         {
-            Product products = new Product();
-            products.JsonLoad();
+            //Product products = new Product();
+            //products.JsonLoad();
         }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
+        
     }
 }

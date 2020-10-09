@@ -1,18 +1,16 @@
-﻿{
-    "data":[
-        {
-            "title":"a",
-            "description":"aa",
-            "price":1,
-			"type": "主機板",
-            "src":"./images/a.png"
-        },
-        {
-            "title":"b",
-            "description":"bb",
-            "price":2,
-			"type": "主機板",
-            "src":"./images/b.png"
-        }
-    ]
-}
+﻿[
+    {
+        "_name":"a",
+        "_description":"aa",
+        "_price":1,
+		"_type": "主機板",
+        "_imageLink":"./images/a.png"
+    },
+    {
+        "_name":"b",
+        "_description":"bb",
+        "_price":2,
+		"_type": "主機板",
+        "_imageLink":"./images/b.png"
+    }
+]

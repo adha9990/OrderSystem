@@ -2,27 +2,25 @@
 {
     public class Product
     {
-        public string Name
+        public string _name
         {
             get;
             set;
         }
-        public string Description
+        public string _description
         {
             get;
             set;
         }
-        public int Price
+        public int _price
         {
             get;
             set;
         }
-        public string ImageLink
+        public string _imageLink
         {
             get;
             set;
         }
     }
-
-
 }

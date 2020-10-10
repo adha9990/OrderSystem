@@ -1,5 +1,6 @@
 ﻿[
     {
+		"_id":"1",
         "_name":"a",
         "_description":"aa",
         "_price":1,
@@ -7,10 +8,283 @@
         "_imageLink":"./images/a.png"
     },
     {
+		"_id":"2",
         "_name":"b",
         "_description":"bb",
         "_price":2,
 		"_type": "主機板",
         "_imageLink":"./images/b.png"
+    },
+	{
+		"_id":"3",
+        "_name":"c",
+        "_description":"cc",
+        "_price":3,
+		"_type": "主機板",
+        "_imageLink":"./images/c.png"
+    },
+	{
+		"_id":"4",
+        "_name":"d",
+        "_description":"dd",
+        "_price":4,
+		"_type": "主機板",
+        "_imageLink":"./images/d.png"
+    },
+	{
+		"_id":"5",
+        "_name":"e",
+        "_description":"ee",
+        "_price":5,
+		"_type": "主機板",
+        "_imageLink":"./images/e.png"
+    },
+	{
+		"_id":"6",
+        "_name":"f",
+        "_description":"ff",
+        "_price":6,
+		"_type": "主機板",
+        "_imageLink":"./images/f.png"
+    },
+	{
+		"_id":"7",
+        "_name":"a",
+        "_description":"aa",
+        "_price":1,
+		"_type": "CPU",
+        "_imageLink":"./images/a.png"
+    },
+    {
+		"_id":"8",
+        "_name":"b",
+        "_description":"bb",
+        "_price":2,
+		"_type": "CPU",
+        "_imageLink":"./images/b.png"
+    },
+	{
+		"_id":"9",
+        "_name":"c",
+        "_description":"cc",
+        "_price":3,
+		"_type": "CPU",
+        "_imageLink":"./images/c.png"
+    },
+	{
+		"_id":"10",
+        "_name":"d",
+        "_description":"dd",
+        "_price":4,
+		"_type": "CPU",
+        "_imageLink":"./images/d.png"
+    },
+	{
+		"_id":"11",
+        "_name":"e",
+        "_description":"ee",
+        "_price":5,
+		"_type": "CPU",
+        "_imageLink":"./images/e.png"
+    },
+	{
+		"_id":"12",
+        "_name":"f",
+        "_description":"ff",
+        "_price":6,
+		"_type": "CPU",
+        "_imageLink":"./images/f.png"
+    },
+	{
+		"_id":"13",
+        "_name":"a",
+        "_description":"aa",
+        "_price":1,
+		"_type": "記憶體",
+        "_imageLink":"./images/a.png"
+    },
+    {
+		"_id":"14",
+        "_name":"b",
+        "_description":"bb",
+        "_price":2,
+		"_type": "記憶體",
+        "_imageLink":"./images/b.png"
+    },
+	{
+		"_id":"15",
+        "_name":"c",
+        "_description":"cc",
+        "_price":3,
+		"_type": "記憶體",
+        "_imageLink":"./images/c.png"
+    },
+	{
+		"_id":"16",
+        "_name":"d",
+        "_description":"dd",
+        "_price":4,
+		"_type": "記憶體",
+        "_imageLink":"./images/d.png"
+    },
+	{
+		"_id":"17",
+        "_name":"e",
+        "_description":"ee",
+        "_price":5,
+		"_type": "記憶體",
+        "_imageLink":"./images/e.png"
+    },
+	{
+		"_id":"18",
+        "_name":"f",
+        "_description":"ff",
+        "_price":6,
+		"_type": "記憶體",
+        "_imageLink":"./images/f.png"
+    },
+	{
+		"_id":"19",
+        "_name":"a",
+        "_description":"aa",
+        "_price":1,
+		"_type": "硬碟",
+        "_imageLink":"./images/a.png"
+    },
+    {
+		"_id":"20",
+        "_name":"b",
+        "_description":"bb",
+        "_price":2,
+		"_type": "硬碟",
+        "_imageLink":"./images/b.png"
+    },
+	{
+		"_id":"21",
+        "_name":"c",
+        "_description":"cc",
+        "_price":3,
+		"_type": "硬碟",
+        "_imageLink":"./images/c.png"
+    },
+	{
+		"_id":"22",
+        "_name":"d",
+        "_description":"dd",
+        "_price":4,
+		"_type": "硬碟",
+        "_imageLink":"./images/d.png"
+    },
+	{
+		"_id":"23",
+        "_name":"e",
+        "_description":"ee",
+        "_price":5,
+		"_type": "硬碟",
+        "_imageLink":"./images/e.png"
+    },
+	{
+		"_id":"24",
+        "_name":"f",
+        "_description":"ff",
+        "_price":6,
+		"_type": "硬碟",
+        "_imageLink":"./images/f.png"
+    },
+	{
+		"_id":"25",
+        "_name":"a",
+        "_description":"aa",
+        "_price":1,
+		"_type": "顯示卡",
+        "_imageLink":"./images/a.png"
+    },
+    {
+		"_id":"26",
+        "_name":"b",
+        "_description":"bb",
+        "_price":2,
+		"_type": "顯示卡",
+        "_imageLink":"./images/b.png"
+    },
+	{
+		"_id":"27",
+        "_name":"c",
+        "_description":"cc",
+        "_price":3,
+		"_type": "顯示卡",
+        "_imageLink":"./images/c.png"
+    },
+	{
+		"_id":"28",
+        "_name":"d",
+        "_description":"dd",
+        "_price":4,
+		"_type": "顯示卡",
+        "_imageLink":"./images/d.png"
+    },
+	{
+		"_id":"29",
+        "_name":"e",
+        "_description":"ee",
+        "_price":5,
+		"_type": "顯示卡",
+        "_imageLink":"./images/e.png"
+    },
+	{
+		"_id":"30",
+        "_name":"f",
+        "_description":"ff",
+        "_price":6,
+		"_type": "顯示卡",
+        "_imageLink":"./images/f.png"
+    },
+	{
+		"_id":"31",
+        "_name":"a",
+        "_description":"aa",
+        "_price":1,
+		"_type": "套裝電腦",
+        "_imageLink":"./images/a.png"
+    },
+    {
+		"_id":"32",
+        "_name":"b",
+        "_description":"bb",
+        "_price":2,
+		"_type": "套裝電腦",
+        "_imageLink":"./images/b.png"
+    },
+	{
+		"_id":"33",
+        "_name":"c",
+        "_description":"cc",
+        "_price":3,
+		"_type": "套裝電腦",
+        "_imageLink":"./images/c.png"
+    },
+	{
+		"_id":"34",
+        "_name":"d",
+        "_description":"dd",
+        "_price":4,
+		"_type": "套裝電腦",
+        "_imageLink":"./images/d.png"
+    },
+	{
+		"_id":"35",
+        "_name":"e",
+        "_description":"ee",
+        "_price":5,
+		"_type": "套裝電腦",
+        "_imageLink":"./images/e.png"
+    },
+	{
+		"_id":"36",
+        "_name":"f",
+        "_description":"ff",
+        "_price":6,
+		"_type": "套裝電腦",
+        "_imageLink":"./images/f.png"
     }
 ]

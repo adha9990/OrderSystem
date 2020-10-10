@@ -185,13 +185,62 @@
     <div class="data">
       <Data id="ReviewPalData">
         <CodeReview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-          <Reviews />
+          <Reviews>
+            <Smell>
+              <Id>1</Id>
+              <SmellType>Unsuitable naming(名不符實)-PREFIX(prefix)</SmellType>
+              <HashCode>UnsuitableNaming.Controller.PREFIX.PREFIX</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>OrderSystem</Project>
+              <File>Controller.cs</File>
+              <Line>11</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>2</Id>
+              <SmellType>ICS(空白與空行-16)</SmellType>
+              <HashCode>SpacingAndNewLine16.ProductController.MakeProductTab.0</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>OrderSystem</Project>
+              <File>ProductController.cs</File>
+              <Line>36</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>ICS(空白與空行-16) 每個函式之間加一個空行</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>3</Id>
+              <SmellType>ICS(變數-2)</SmellType>
+              <HashCode>Variable2.MakeProductTab._productTabControl</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>OrderSystem</Project>
+              <File>ProductController.cs</File>
+              <Line>36</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>ICS(變數-2) 區域變數-函式參數命名規則與 class 成員變數相似，僅差在不以底線開始</Comment>
+              <Auto>false</Auto>
+            </Smell>
+          </Reviews>
           <HashCodeIgnoreList />
           <HashCodeRequestIgnoreList />
           <AnalysisFileManager>
             <AnalysisFiles>
               <AnalysisFile>
-                <RelativePath>Controller.cs</RelativePath>
+                <RelativePath>Controllers\ProductController.cs</RelativePath>
                 <ProjectName>OrderSystem</ProjectName>
                 <AnalysisFileType>Model</AnalysisFileType>
               </AnalysisFile>
@@ -232,7 +281,7 @@
               </AnalysisFile>
             </AnalysisFiles>
           </AnalysisFileManager>
-          <ProductionLoc>295</ProductionLoc>
+          <ProductionLoc>329</ProductionLoc>
           <TestLoc>0</TestLoc>
         </CodeReview>
       </Data>

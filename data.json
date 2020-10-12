@@ -286,5 +286,13 @@
         "_price":6,
 		"_type": "套裝電腦",
         "_imageLink":"./images/f.png"
+    },
+	{
+		"_id":"37",
+        "_name":"a",
+        "_description":"aa",
+        "_price":6,
+		"_type": "主機板",
+        "_imageLink":"./images/a.png"
     }
 ]

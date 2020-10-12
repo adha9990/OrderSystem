@@ -45,5 +45,23 @@ namespace OrderSystem
         {
             return GetProducts().GroupBy(x => x._type).Select(x => x.FirstOrDefault()._type).ToList<string>();
         }
+        /// <summary>
+        /// 透過商品類型取得商品
+        /// </summary>
+        /// <param name="type"></param>
+        /// <returns></returns>
+        public List<Product> GetProductByType(string type)
+        {
+            return GetProducts().Where(x => x._type == type).Select(x => x).ToList();
+        }
+        /// <summary>
+        /// 透過商品編號取得商品
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        public Product GetProductById(string id)
+        {
+            return GetProducts().Where(x => x._id == id).Select(x => x).FirstOrDefault();
+        }
     }
 }

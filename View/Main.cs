@@ -13,6 +13,7 @@ namespace OrderSystem
     public partial class Main : Form
     {
         private ProductController _productController = new ProductController();
+        private OrderController _orderController = new OrderController();
         public Main()
         {
             InitializeComponent();
@@ -58,7 +59,7 @@ namespace OrderSystem
                 button.Location = new Point(10 + 85 * (count % 6), 5 + 80 * (count / 6));
                 button.BackgroundImage = Image.FromFile(product._imageLink);
                 button.BackgroundImageLayout = ImageLayout.Stretch;
-                button.Click += new EventHandler(ClickProductButton);
+                button.Click += new EventHandler(ProductButton_click);
                 //button
                 tabPage.Controls.Add(button);
 
@@ -68,7 +69,7 @@ namespace OrderSystem
         /// <summary>
         /// 商品按鈕被點擊時觸發事件
         /// </summary>
-        private void ClickProductButton(Object sender, EventArgs e)
+        private void ProductButton_click(Object sender, EventArgs e)
         {
             Button button = (Button)sender;
             string id = button.Tag.ToString();
@@ -76,6 +77,28 @@ namespace OrderSystem
 
             _productDescriptionLabel.Text = product._description;
             _productPriceLabel.Text = "建議售價:"+product._price.ToString()+"元";
+
+            _addButton.Tag = id;
+        }
+        /// <summary>
+        /// 訂單新增按鈕被點擊時觸發事件
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void _addButton_Click(object sender, EventArgs e)
+        {
+            Button button = (Button)sender;
+            string id = button.Tag.ToString();
+            Product product = _productController.GetProductById(id);
+
+            _orderDataGridView.Rows.Add(new string[] {
+                product._name,
+                product._type,
+                product._price.ToString(),
+            });
+
+            _orderController.AddOrder(product);
+            _orderAmountLabel.Text = "總金額:"+ _orderController.GetAmount().ToString() + "元";
         }
     }
 }

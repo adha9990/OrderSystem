@@ -188,29 +188,29 @@
           <Reviews>
             <Smell>
               <Id>1</Id>
-              <SmellType>Unsuitable naming(名不符實)-PREFIX(prefix)</SmellType>
-              <HashCode>UnsuitableNaming.Controller.PREFIX.PREFIX</HashCode>
+              <SmellType>ICS(空白與空行-16)</SmellType>
+              <HashCode>SpacingAndNewLine16.ProductController.GetProducts.0</HashCode>
               <Severity>Red</Severity>
               <Weight>1</Weight>
               <Project>OrderSystem</Project>
-              <File>Controller.cs</File>
-              <Line>11</Line>
+              <File>ProductController.cs</File>
+              <Line>35</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
               <EndCol>0</EndCol>
-              <Comment />
+              <Comment>ICS(空白與空行-16) 每個函式之間加一個空行</Comment>
               <Auto>false</Auto>
             </Smell>
             <Smell>
               <Id>2</Id>
               <SmellType>ICS(空白與空行-16)</SmellType>
-              <HashCode>SpacingAndNewLine16.ProductController.MakeProductTab.0</HashCode>
+              <HashCode>SpacingAndNewLine16.ProductController.GetTypes.0</HashCode>
               <Severity>Red</Severity>
               <Weight>1</Weight>
               <Project>OrderSystem</Project>
               <File>ProductController.cs</File>
-              <Line>36</Line>
+              <Line>43</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -220,18 +220,274 @@
             </Smell>
             <Smell>
               <Id>3</Id>
-              <SmellType>ICS(變數-2)</SmellType>
-              <HashCode>Variable2.MakeProductTab._productTabControl</HashCode>
+              <SmellType>ICS(空白與空行-16)</SmellType>
+              <HashCode>SpacingAndNewLine16.ProductController.GetProductByType.0</HashCode>
               <Severity>Red</Severity>
               <Weight>1</Weight>
               <Project>OrderSystem</Project>
               <File>ProductController.cs</File>
-              <Line>36</Line>
+              <Line>52</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
               <EndCol>0</EndCol>
-              <Comment>ICS(變數-2) 區域變數-函式參數命名規則與 class 成員變數相似，僅差在不以底線開始</Comment>
+              <Comment>ICS(空白與空行-16) 每個函式之間加一個空行</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>4</Id>
+              <SmellType>ICS(空白與空行-16)</SmellType>
+              <HashCode>SpacingAndNewLine16.ProductController.GetProductById.0</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>OrderSystem</Project>
+              <File>ProductController.cs</File>
+              <Line>61</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>ICS(空白與空行-16) 每個函式之間加一個空行</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>5</Id>
+              <SmellType>ICS(空白與空行-7)</SmellType>
+              <HashCode>SpacingAndNewLine7</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>OrderSystem</Project>
+              <File>Main.cs</File>
+              <Line>78</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>ICS(空白與空行-7) 二元運算子的前面與後面各加一個空白</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>6</Id>
+              <SmellType>ICS(空白與空行-7)</SmellType>
+              <HashCode>SpacingAndNewLine7</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>OrderSystem</Project>
+              <File>Main.cs</File>
+              <Line>78</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>ICS(空白與空行-7) 二元運算子的前面與後面各加一個空白</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>7</Id>
+              <SmellType>Literal constants(字面常數)-80</SmellType>
+              <HashCode>LiteralConstants.CreateProductTabPageButton.80</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>OrderSystem</Project>
+              <File>Main.cs</File>
+              <Line>57</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>8</Id>
+              <SmellType>Literal constants(字面常數)-80</SmellType>
+              <HashCode>LiteralConstants.CreateProductTabPageButton.80</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>OrderSystem</Project>
+              <File>Main.cs</File>
+              <Line>57</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>9</Id>
+              <SmellType>Literal constants(字面常數)-80</SmellType>
+              <HashCode>LiteralConstants.CreateProductTabPageButton.80</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>OrderSystem</Project>
+              <File>Main.cs</File>
+              <Line>58</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>10</Id>
+              <SmellType>Literal constants(字面常數)-10</SmellType>
+              <HashCode>LiteralConstants.CreateProductTabPageButton.10</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>OrderSystem</Project>
+              <File>Main.cs</File>
+              <Line>58</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>11</Id>
+              <SmellType>Literal constants(字面常數)-85</SmellType>
+              <HashCode>LiteralConstants.CreateProductTabPageButton.85</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>OrderSystem</Project>
+              <File>Main.cs</File>
+              <Line>58</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>12</Id>
+              <SmellType>Literal constants(字面常數)-6</SmellType>
+              <HashCode>LiteralConstants.CreateProductTabPageButton.6</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>OrderSystem</Project>
+              <File>Main.cs</File>
+              <Line>58</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>13</Id>
+              <SmellType>Literal constants(字面常數)-6</SmellType>
+              <HashCode>LiteralConstants.CreateProductTabPageButton.6</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>OrderSystem</Project>
+              <File>Main.cs</File>
+              <Line>58</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>14</Id>
+              <SmellType>Literal constants(字面常數)-5</SmellType>
+              <HashCode>LiteralConstants.CreateProductTabPageButton.5</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>OrderSystem</Project>
+              <File>Main.cs</File>
+              <Line>58</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>15</Id>
+              <SmellType>Literal constants(字面常數)-"建議售價:"</SmellType>
+              <HashCode>LiteralConstants.ClickProductButton."建議售價:"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>OrderSystem</Project>
+              <File>Main.cs</File>
+              <Line>78</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>16</Id>
+              <SmellType>Literal constants(字面常數)-"元"</SmellType>
+              <HashCode>LiteralConstants.ClickProductButton."元"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>OrderSystem</Project>
+              <File>Main.cs</File>
+              <Line>78</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>17</Id>
+              <SmellType>ICS(空白與空行-16)</SmellType>
+              <HashCode>SpacingAndNewLine16.Main.CreateProductTabControl.0</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>OrderSystem</Project>
+              <File>Main.cs</File>
+              <Line>33</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>ICS(空白與空行-16) 每個函式之間加一個空行</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>18</Id>
+              <SmellType>ICS(空白與空行-16)</SmellType>
+              <HashCode>SpacingAndNewLine16.Main.CreateProductTabPageButton.0</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>OrderSystem</Project>
+              <File>Main.cs</File>
+              <Line>49</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>ICS(空白與空行-16) 每個函式之間加一個空行</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>19</Id>
+              <SmellType>ICS(空白與空行-16)</SmellType>
+              <HashCode>SpacingAndNewLine16.Main.ClickProductButton.0</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>OrderSystem</Project>
+              <File>Main.cs</File>
+              <Line>71</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>ICS(空白與空行-16) 每個函式之間加一個空行</Comment>
               <Auto>false</Auto>
             </Smell>
           </Reviews>
@@ -281,7 +537,7 @@
               </AnalysisFile>
             </AnalysisFiles>
           </AnalysisFileManager>
-          <ProductionLoc>329</ProductionLoc>
+          <ProductionLoc>408</ProductionLoc>
           <TestLoc>0</TestLoc>
         </CodeReview>
       </Data>

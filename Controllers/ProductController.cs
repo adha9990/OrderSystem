@@ -16,11 +16,10 @@ namespace OrderSystem
         {
             InitializeData();
         }
-
         /// <summary>
         /// 載入JSON資料
         /// </summary>
-        private void InitializeData()
+        public void InitializeData()
         {
             using (StreamReader r = new StreamReader(FILE))
             {

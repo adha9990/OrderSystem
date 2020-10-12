@@ -37,6 +37,9 @@
             this._orderDataGridView = new System.Windows.Forms.DataGridView();
             this._orderAmountLabel = new System.Windows.Forms.Label();
             this._productPriceLabel = new System.Windows.Forms.Label();
+            this._productName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this._productType = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this._productPrice = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this._productGroupBox.SuspendLayout();
             this._productDetailGroupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this._orderDataGridView)).BeginInit();
@@ -91,24 +94,33 @@
             this._addButton.TabIndex = 1;
             this._addButton.Text = "加入";
             this._addButton.UseVisualStyleBackColor = true;
+            this._addButton.Click += new System.EventHandler(this._addButton_Click);
             // 
             // _orderLabel
             // 
             this._orderLabel.Font = new System.Drawing.Font("標楷體", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this._orderLabel.Location = new System.Drawing.Point(581, 9);
             this._orderLabel.Name = "_orderLabel";
-            this._orderLabel.Size = new System.Drawing.Size(345, 30);
+            this._orderLabel.Size = new System.Drawing.Size(304, 30);
             this._orderLabel.TabIndex = 1;
             this._orderLabel.Text = "我的訂單";
             this._orderLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // _orderDataGridView
             // 
+            this._orderDataGridView.AllowUserToAddRows = false;
+            this._orderDataGridView.AllowUserToDeleteRows = false;
             this._orderDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this._orderDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this._productName,
+            this._productType,
+            this._productPrice});
             this._orderDataGridView.Location = new System.Drawing.Point(581, 42);
             this._orderDataGridView.Name = "_orderDataGridView";
+            this._orderDataGridView.ReadOnly = true;
+            this._orderDataGridView.RowHeadersVisible = false;
             this._orderDataGridView.RowTemplate.Height = 24;
-            this._orderDataGridView.Size = new System.Drawing.Size(350, 395);
+            this._orderDataGridView.Size = new System.Drawing.Size(304, 395);
             this._orderDataGridView.TabIndex = 2;
             // 
             // _orderAmountLabel
@@ -119,7 +131,7 @@
             this._orderAmountLabel.Name = "_orderAmountLabel";
             this._orderAmountLabel.Size = new System.Drawing.Size(152, 27);
             this._orderAmountLabel.TabIndex = 3;
-            this._orderAmountLabel.Text = "總金額 : 0";
+            this._orderAmountLabel.Text = "總金額:0元";
             // 
             // _productPriceLabel
             // 
@@ -129,11 +141,29 @@
             this._productPriceLabel.Size = new System.Drawing.Size(0, 19);
             this._productPriceLabel.TabIndex = 1;
             // 
+            // _productName
+            // 
+            this._productName.HeaderText = "商品名稱";
+            this._productName.Name = "_productName";
+            this._productName.ReadOnly = true;
+            // 
+            // _productType
+            // 
+            this._productType.HeaderText = "商品類別";
+            this._productType.Name = "_productType";
+            this._productType.ReadOnly = true;
+            // 
+            // _productPrice
+            // 
+            this._productPrice.HeaderText = "單價";
+            this._productPrice.Name = "_productPrice";
+            this._productPrice.ReadOnly = true;
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(941, 476);
+            this.ClientSize = new System.Drawing.Size(899, 476);
             this.Controls.Add(this._orderAmountLabel);
             this.Controls.Add(this._orderDataGridView);
             this.Controls.Add(this._orderLabel);
@@ -162,6 +192,9 @@
         private System.Windows.Forms.Label _orderAmountLabel;
         private System.Windows.Forms.Label _productDescriptionLabel;
         private System.Windows.Forms.Label _productPriceLabel;
+        private System.Windows.Forms.DataGridViewTextBoxColumn _productName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn _productType;
+        private System.Windows.Forms.DataGridViewTextBoxColumn _productPrice;
     }
 }
 

@@ -88,6 +88,7 @@ namespace OrderSystem
         private void _addButton_Click(object sender, EventArgs e)
         {
             Button button = (Button)sender;
+            if (button.Tag == null) return;
             string id = button.Tag.ToString();
             Product product = _productController.GetProductById(id);
 

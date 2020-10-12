@@ -55,9 +55,9 @@ namespace OrderSystem
             {
                 Button button = new Button();
                 button.Tag = product._id;
-                button.Size = new Size(80, 80);
-                button.Location = new Point(10 + 85 * (count % 6), 5 + 80 * (count / 6));
-                button.BackgroundImage = Image.FromFile(product._imageLink);
+                button.Size = new Size(120,100);
+                button.Location = new Point(30 + 130 * (count % 3), 10 + 105 * (count / 3));
+                button.BackgroundImage = Image.FromFile(product._image);
                 button.BackgroundImageLayout = ImageLayout.Stretch;
                 button.Click += new EventHandler(ProductButton_click);
                 //button
@@ -75,8 +75,8 @@ namespace OrderSystem
             string id = button.Tag.ToString();
             Product product = _productController.GetProductById(id);
 
-            _productDescriptionLabel.Text = product._description;
-            _productPriceLabel.Text = "建議售價:"+product._price.ToString()+"元";
+            _productDescriptionRichTextBox.Text = product._description;
+            _productPriceLabel.Text = "單價:"+product._price.ToString()+"元";
 
             _addButton.Tag = id;
         }

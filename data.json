@@ -1,298 +1,298 @@
 ﻿[
-    {
-		"_id":"1",
-        "_name":"a",
-        "_description":"aa",
-        "_price":1,
-		"_type": "主機板",
-        "_imageLink":"./images/a.png"
-    },
-    {
-		"_id":"2",
-        "_name":"b",
-        "_description":"bb",
-        "_price":2,
-		"_type": "主機板",
-        "_imageLink":"./images/b.png"
-    },
-	{
-		"_id":"3",
-        "_name":"c",
-        "_description":"cc",
-        "_price":3,
-		"_type": "主機板",
-        "_imageLink":"./images/c.png"
-    },
-	{
-		"_id":"4",
-        "_name":"d",
-        "_description":"dd",
-        "_price":4,
-		"_type": "主機板",
-        "_imageLink":"./images/d.png"
-    },
-	{
-		"_id":"5",
-        "_name":"e",
-        "_description":"ee",
-        "_price":5,
-		"_type": "主機板",
-        "_imageLink":"./images/e.png"
-    },
-	{
-		"_id":"6",
-        "_name":"f",
-        "_description":"ff",
-        "_price":6,
-		"_type": "主機板",
-        "_imageLink":"./images/f.png"
-    },
-	{
-		"_id":"7",
-        "_name":"a",
-        "_description":"aa",
-        "_price":1,
-		"_type": "CPU",
-        "_imageLink":"./images/a.png"
-    },
-    {
-		"_id":"8",
-        "_name":"b",
-        "_description":"bb",
-        "_price":2,
-		"_type": "CPU",
-        "_imageLink":"./images/b.png"
-    },
-	{
-		"_id":"9",
-        "_name":"c",
-        "_description":"cc",
-        "_price":3,
-		"_type": "CPU",
-        "_imageLink":"./images/c.png"
-    },
-	{
-		"_id":"10",
-        "_name":"d",
-        "_description":"dd",
-        "_price":4,
-		"_type": "CPU",
-        "_imageLink":"./images/d.png"
-    },
-	{
-		"_id":"11",
-        "_name":"e",
-        "_description":"ee",
-        "_price":5,
-		"_type": "CPU",
-        "_imageLink":"./images/e.png"
-    },
-	{
-		"_id":"12",
-        "_name":"f",
-        "_description":"ff",
-        "_price":6,
-		"_type": "CPU",
-        "_imageLink":"./images/f.png"
-    },
-	{
-		"_id":"13",
-        "_name":"a",
-        "_description":"aa",
-        "_price":1,
-		"_type": "記憶體",
-        "_imageLink":"./images/a.png"
-    },
-    {
-		"_id":"14",
-        "_name":"b",
-        "_description":"bb",
-        "_price":2,
-		"_type": "記憶體",
-        "_imageLink":"./images/b.png"
-    },
-	{
-		"_id":"15",
-        "_name":"c",
-        "_description":"cc",
-        "_price":3,
-		"_type": "記憶體",
-        "_imageLink":"./images/c.png"
-    },
-	{
-		"_id":"16",
-        "_name":"d",
-        "_description":"dd",
-        "_price":4,
-		"_type": "記憶體",
-        "_imageLink":"./images/d.png"
-    },
-	{
-		"_id":"17",
-        "_name":"e",
-        "_description":"ee",
-        "_price":5,
-		"_type": "記憶體",
-        "_imageLink":"./images/e.png"
-    },
-	{
-		"_id":"18",
-        "_name":"f",
-        "_description":"ff",
-        "_price":6,
-		"_type": "記憶體",
-        "_imageLink":"./images/f.png"
-    },
-	{
-		"_id":"19",
-        "_name":"a",
-        "_description":"aa",
-        "_price":1,
-		"_type": "硬碟",
-        "_imageLink":"./images/a.png"
-    },
-    {
-		"_id":"20",
-        "_name":"b",
-        "_description":"bb",
-        "_price":2,
-		"_type": "硬碟",
-        "_imageLink":"./images/b.png"
-    },
-	{
-		"_id":"21",
-        "_name":"c",
-        "_description":"cc",
-        "_price":3,
-		"_type": "硬碟",
-        "_imageLink":"./images/c.png"
-    },
-	{
-		"_id":"22",
-        "_name":"d",
-        "_description":"dd",
-        "_price":4,
-		"_type": "硬碟",
-        "_imageLink":"./images/d.png"
-    },
-	{
-		"_id":"23",
-        "_name":"e",
-        "_description":"ee",
-        "_price":5,
-		"_type": "硬碟",
-        "_imageLink":"./images/e.png"
-    },
-	{
-		"_id":"24",
-        "_name":"f",
-        "_description":"ff",
-        "_price":6,
-		"_type": "硬碟",
-        "_imageLink":"./images/f.png"
-    },
-	{
-		"_id":"25",
-        "_name":"a",
-        "_description":"aa",
-        "_price":1,
-		"_type": "顯示卡",
-        "_imageLink":"./images/a.png"
-    },
-    {
-		"_id":"26",
-        "_name":"b",
-        "_description":"bb",
-        "_price":2,
-		"_type": "顯示卡",
-        "_imageLink":"./images/b.png"
-    },
-	{
-		"_id":"27",
-        "_name":"c",
-        "_description":"cc",
-        "_price":3,
-		"_type": "顯示卡",
-        "_imageLink":"./images/c.png"
-    },
-	{
-		"_id":"28",
-        "_name":"d",
-        "_description":"dd",
-        "_price":4,
-		"_type": "顯示卡",
-        "_imageLink":"./images/d.png"
-    },
-	{
-		"_id":"29",
-        "_name":"e",
-        "_description":"ee",
-        "_price":5,
-		"_type": "顯示卡",
-        "_imageLink":"./images/e.png"
-    },
-	{
-		"_id":"30",
-        "_name":"f",
-        "_description":"ff",
-        "_price":6,
-		"_type": "顯示卡",
-        "_imageLink":"./images/f.png"
-    },
-	{
-		"_id":"31",
-        "_name":"a",
-        "_description":"aa",
-        "_price":1,
-		"_type": "套裝電腦",
-        "_imageLink":"./images/a.png"
-    },
-    {
-		"_id":"32",
-        "_name":"b",
-        "_description":"bb",
-        "_price":2,
-		"_type": "套裝電腦",
-        "_imageLink":"./images/b.png"
-    },
-	{
-		"_id":"33",
-        "_name":"c",
-        "_description":"cc",
-        "_price":3,
-		"_type": "套裝電腦",
-        "_imageLink":"./images/c.png"
-    },
-	{
-		"_id":"34",
-        "_name":"d",
-        "_description":"dd",
-        "_price":4,
-		"_type": "套裝電腦",
-        "_imageLink":"./images/d.png"
-    },
-	{
-		"_id":"35",
-        "_name":"e",
-        "_description":"ee",
-        "_price":5,
-		"_type": "套裝電腦",
-        "_imageLink":"./images/e.png"
-    },
-	{
-		"_id":"36",
-        "_name":"f",
-        "_description":"ff",
-        "_price":6,
-		"_type": "套裝電腦",
-        "_imageLink":"./images/f.png"
-    },
-	{
-		"_id":"37",
-        "_name":"a",
-        "_description":"aa",
-        "_price":6,
-		"_type": "主機板",
-        "_imageLink":"./images/a.png"
-    }
+  {
+    "_id": 1,
+    "_name": "華碩 STRIX B360-F GAMING 主機板",
+    "_price": 3990,
+    "_type": "主機板",
+    "_description": "◆ 支援CPU ：1151腳位(intel 8代)\n ◆ 記憶體 ：4x DIMM / 64GB DDR4(max)\n ◆ 顯示輸出：1x HDMI / 1x DP / 1x DVI\n ◆ 擴充插槽：2x PCIe 3.0x16 / 4x PCIe 3.0x1\n ◆ 儲存插槽：2x M.2 / 6x SATA\n ◆ USB插槽 ：2x USB 3.1 Gen2 / 2x USB 3.1 Gen1 / 6 x USB 2.0\n ◆ 網路連接：Intel I219V 1 x Gigabit\n ◆ 主板尺寸：ATX\n ◆ 體積(長x寬)：30.5 x 24.4 cm\n ◆ 原廠保固：註冊5年保\n",
+    "_image": "./Images/000001_1522319870.jpg"
+  },
+  {
+    "_id": 2,
+    "_name": "華碩 TUF B360M-E GAMING 主機板",
+    "_price": 3190,
+    "_type": "主機板",
+    "_description": "◆ 支援CPU ：1151腳位(intel 8代)\n◆ 記憶體 ：2x DIMM / 32GB DDR4(max)\n◆ 顯示輸出：1x HDMI / 1x DVI\n◆ 擴充插槽：1x PCIe 3.0x16 / 2x PCIe 3.0x1\n◆ 儲存插槽：1x M.2 / 6x SATA\n◆ USB插槽 ：2x USB 3.1 Gen2 / 4x USB 3.1 Gen1 / 6 x USB 2.0\n◆ 網路連接：Intel I219V 1 x Gigabit\n◆ 主板尺寸：M-ATX\n◆ 體積(長x寬)：22.6 x 22.6 cm\n◆ 原廠保固：註冊5年保《點我登錄》",
+    "_image": "./Images/000001_1522396005.jpg"
+  },
+  {
+    "_id": 3,
+    "_name": "華碩 STRIX B360-H GAMING 主機板",
+    "_price": 3790,
+    "_type": "主機板",
+    "_description": "◆ 支援CPU ：1151腳位(intel 8代)\n◆ 記憶體 ：4x DIMM / 64GB DDR4(max)\n◆ 顯示輸出：1x HDMI / 1x DVI\n◆ 擴充插槽：2x PCIe 3.0x16 / 4x PCIe 3.0x1\n◆ 儲存插槽：2x M.2 / 6x SATA\n◆ USB插槽 ：2x USB 3.1 Gen2 / 4x USB 3.1 Gen1\n◆ 網路連接：Intel Gigabit LAN\n◆ 主板尺寸：ATX\n◆ 體積(長x寬)：30.5 x 24.4 cm\n◆ 原廠保固：註冊4年保",
+    "_image": "./Images/000001_1522636985.jpg"
+  },
+  {
+    "_id": 4,
+    "_name": "技嘉 B360 AORUS GAMING 3 WIFI 主機板",
+    "_price": 3790,
+    "_type": "主機板",
+    "_description": "◆ 支援CPU ：1151腳位(intel 8代)\n◆ 記憶體 ：4x DIMM / 64GB DDR4(max)\n◆ 顯示輸出：1x HDMI / 1x DVI\n◆ 擴充插槽：3x PCIe 3.0x16 / 2x PCIe 3.0x1\n◆ 儲存插槽：2x M.2 / 6x SATA\n◆ USB插槽 ：1x USB 3.1 Gen2 / 4x USB 3.1 Gen1\n◆ 網路連接：Intel GbE\n◆ 主板尺寸：ATX\n◆ 體積(長x寬)：30.5 x 22.5 cm\n◆ 原廠保固：註冊5年保《點我登錄》",
+    "_image": "./Images/000001_1522637090.jpg"
+  },
+  {
+    "_id": 5,
+    "_name": "華碩 STRIX B450-F GAMING 主機板",
+    "_price": 3990,
+    "_type": "主機板",
+    "_description": "◆ 支援CPU ：AM4 腳位\n◆ 記憶體 ：4x DIMM / 64GB DDR4(max)\n◆ 顯示輸出：1x HDMI / 1x DP\n◆ 擴充插槽：2x PCIe 3.0x16(x16 or x8/x4) / 1x PCIe 3.0x16(x8 mode)\n◆ 儲存插槽：2x M.2 / 4x SATA\n◆ USB插槽 ：3x USB 3.1 Gen1 / 2x USB 3.1 Gen2\n◆ 網路連接：Intel I211-AT, 1 x Gigabit LAN\n◆ 主板尺寸：ATX\n◆ 體積(長x寬)：30.5 x 24.4 cm\n◆ 原廠保固：註冊5年保",
+    "_image": "./Images/000001_1554877017.jpg"
+  },
+  {
+    "_id": 6,
+    "_name": "華碩 STRIX B360-G GAMING 主機板",
+    "_price": 3490,
+    "_type": "主機板",
+    "_description": "◆ 支援CPU ：1151腳位(intel 8代)\n◆ 記憶體 ：4x DIMM / 64GB DDR4(max)\n◆ 顯示輸出：1x DVI / 1x HDMI\n◆ 擴充插槽：1x PCIe 3.0x16 / 2x PCIe 3.0x1\n◆ 儲存插槽：2x M.2 / 6x SATA\n◆ USB插槽 ：2x USB 3.1 Gen2 / 4x USB 3.1 Gen1 / 6x USB 2.0\n◆ 網路連接：Intel I219V Anti-surge LANGuard\n◆ 主板尺寸：M-ATX\n◆ 體積(長x寬)：24.4 x 24.4 cm\n◆ 原廠保固：註冊5年保",
+    "_image": "./Images/000001_1525840141.jpg"
+  },
+  {
+    "_id": 7,
+    "_name": "Intel 盒裝Core i7-9700K",
+    "_price": 12799,
+    "_type": "CPU",
+    "_image": "./Images/000001_1540190118.jpg",
+    "_description": "˙第九代 Intel 處理器˙\n◆ 腳位：1151\n◆ 基礎頻率：3.60 GHz\n◆ 快取記憶體：12 MB\n◆ 核心/執行緒：8 / 8\n◆ 內含顯示：HD Graphics 630\n◆ TDP：95 W"
+  },
+  {
+    "_id": 8,
+    "_name": "Intel 盒裝Core I9-9920X",
+    "_price": 12345,
+    "_type": "CPU",
+    "_image": "./Images/000001_1557718946.jpg",
+    "_description": "Intel 盒裝Core I9-9920X\n˙第九代 Intel 處理器˙\n◆ 腳位：2066\n◆ 時脈速度：3.50-4.40 GHz\n◆ 核心/執行緒：12 / 24\n◆ TDP：165 W"
+  },
+  {
+    "_id": 9,
+    "_name": "Intel 盒裝Core i9-9900K",
+    "_price": 16299,
+    "_type": "CPU",
+    "_description": "˙第九代 Intel 處理器˙\n◆ 腳位：1151\n◆ 時脈速度：3.60-5.00 GHz\n◆ 核心/執行緒：8 / 16\n◆ 內含顯示：HD Graphics 630\n◆ TDP：95 W",
+    "_image": "./Images/000001_1559530358.jpg"
+  },
+  {
+    "_id": 10,
+    "_name": "AMD Ryzen 7-2700X 3.7GHz 八核心 中央處理器",
+    "_price": 7990,
+    "_type": "CPU",
+    "_description": "CPU 核心數: 8\n線程：16\n基本時脈速度: 3.7GHz\n最大渦輪核心速度: 4.3GHz\n預設 TDP/TDP: 105W\nTotal L2 Cache：4MB\n總計 L3 快取：16MB\n搭載全新 Wraith Prism with RGB LED 散熱器",
+    "_image": "./Images/000001_1538478136.jpg"
+  },
+  {
+    "_id": 11,
+    "_name": "AMD Ryzen 5-3600 3.6GHz六核心 中央處理器",
+    "_price": 7170,
+    "_type": "CPU",
+    "_description": "CPU 核心數: 6\n基本時脈速度: 3.6GHz\n最大渦輪核心速度: 3.6GHz",
+    "_image": "./Images/000001_1562574208.jpg"
+  },
+  {
+    "_id": 12,
+    "_name": "Intel 盒裝 Core i5-9400F",
+    "_price": 4799,
+    "_type": "CPU",
+    "_description": "◆ 腳位：1151\n◆ 時脈速度：2.90-4.10 GHz\n◆ 快取記憶體：9MB\n◆ 核心/執行緒：6 / 6\n◆ TDP：65 W",
+    "_image": "./Images/000001_1548660821.jpg"
+  },
+  {
+    "_id": 13,
+    "_name": "Kingston 8GB DDR3 1600 桌上型記憶體(KVR16N11/8)",
+    "_price": 1049,
+    "_type": "記憶體",
+    "_description": "★桌上型電腦專用\n★規格：DDR3-1600\n★容量：8GB\n★針腳：240-pin\n★電壓：1.5V",
+    "_image": "./Images/000001_1565662226.jpg"
+  },
+  {
+    "_id": 14,
+    "_name": "Kingston 16GB DDR4 2666 桌上型記憶體(KVR26N19D8/16)",
+    "_price": 1049,
+    "_type": "記憶體",
+    "_description": "★桌上型電腦專用\n★規格：DDR4-2666\n★容量：16GB\n★電壓：1.2V",
+    "_image": "./Images/000001_1568945698.jpg"
+  },
+  {
+    "_id": 15,
+    "_name": "HyperX FURY DDR4 2666 16GB 桌上型超頻記憶體 (HX426C16FB/16",
+    "_price": 2199,
+    "_type": "記憶體",
+    "_description": "◆最高2666MHz自動超頻\n◆1.2V 低電耗\n◆支援Intel X99主板\n◆黑色時尚矮版散熱片",
+    "_image": "./Images/000001_1558490422.jpg"
+  },
+  {
+    "_id": 16,
+    "_name": "HyperX FURY DDR4-3200 16GBx2 桌上型超頻記憶體 (HX432C18FBK2/32)",
+    "_price": 5399,
+    "_type": "記憶體",
+    "_description": "◆最高3200MHz自動超頻\n◆1.2V 低電耗\n◆支援Intel X99主板\n◆黑色時尚矮版散熱片",
+    "_image": "./Images/000001_1556503850.jpg"
+  },
+  {
+    "_id": 17,
+    "_name": "金士頓 16GB 2400MHz DDR4 (ECC) CL17\nUnbuffered DIMM 伺服器記憶體",
+    "_price": 5499,
+    "_type": "記憶體",
+    "_description": "型號:KSM24ED8/16ME\n容量: 16GB\n時脈:DDR4 2400MHz\n功能: ECC(除錯)\n原廠終身保固",
+    "_image": "./Images/000001_1546423034.jpg"
+  },
+  {
+    "_id": 18,
+    "_name": "Kingston 8GB DDR3 1600 桌上型記憶體(KVR16N11/8)",
+    "_price": 1049,
+    "_type": "記憶體",
+    "_description": "★桌上型電腦專用\n★規格：DDR3-1600\n★容量：8GB\n★針腳：240-pin\n★電壓：1.5V",
+    "_image": "./Images/000001_1565662226.jpg"
+  },
+  {
+    "_id": 19,
+    "_name": "Intel 760P系列 512GB M.2 2280 PCI-E 固態硬碟",
+    "_price": 3299,
+    "_type": "硬碟",
+    "_description": "讀3230M/寫1625M/TLC/五年保\n◆連續讀取3230MB/s 連讀寫入1625MB/s\n◆3D TLC NAND Flash 製程\n◆傳輸介面：PCIe NVMe Gen 3.0 x4\n◆AES 256 位元加密技術\n◆五年保固",
+    "_image": "./Images/000001_1553770758.jpg"
+  },
+  {
+    "_id": 20,
+    "_name": "Intel 660P系列 1TB M.2 2280 PCI-E 固態硬碟",
+    "_price": 3299,
+    "_type": "硬碟",
+    "_description": "◆連續讀取1800MB/s 連讀寫入1800MB/s\n◆QLC NAND Flash 製程\n◆傳輸介面：PCIe NVMe Gen 3.0 x4\n◆AES 256 位元加密技術\n◆五年保固\n★聯強貨★",
+    "_image": "./Images/000001_1568693850.jpg"
+  },
+  {
+    "_id": 21,
+    "_name": "Intel 660P系列 1TB M.2 2280 PCI-E 固態硬碟",
+    "_price": 3299,
+    "_type": "硬碟",
+    "_description": "◆連續讀取1800MB/s 連讀寫入1800MB/s\n◆QLC NAND Flash 製程\n◆傳輸介面：PCIe NVMe Gen 3.0 x4\n◆AES 256 位元加密技術\n◆五年保固\n★聯強貨★",
+    "_image": "./Images/000001_1568693850.jpg"
+  },
+  {
+    "_id": 22,
+    "_name": "Intel 660P系列 1TB M.2 2280 PCI-E 固態硬碟",
+    "_price": 3299,
+    "_type": "硬碟",
+    "_description": "◆連續讀取1800MB/s 連讀寫入1800MB/s\n◆QLC NAND Flash 製程\n◆傳輸介面：PCIe NVMe Gen 3.0 x4\n◆AES 256 位元加密技術\n◆五年保固\n★聯強貨★",
+    "_image": "./Images/000001_1568693850.jpg"
+  },
+  {
+    "_id": 23,
+    "_name": "Intel 660P系列 2TB M.2 2280 PCI-E 固態硬碟",
+    "_price": 4690,
+    "_type": "硬碟",
+    "_description": "讀1800M/寫1800M/QLC/五年保\n◆連續讀取1800MB/s 連讀寫入1800MB/s\n◆QLC NAND Flash 製程\n◆傳輸介面：PCIe NVMe Gen 3.0 x4\n◆AES 256 位元加密技術\n◆五年保固\n★聯強貨★",
+    "_image": "./Images/000001_1565662277.jpg"
+  },
+  {
+    "_id": 24,
+    "_name": "PLEXTOR M9PeGN 1TB M.2 2280 PCIe SSD 固態硬碟/(五年保)",
+    "_price": 5999,
+    "_type": "硬碟",
+    "_description": "讀3200M/寫2100M/TLC/五年保\n◆採用Marvell旗艦級控制器\n◆採用TOSHIBA高效能64層3D NAND快閃記憶體\n◆連續讀取3,200MB/s，連讀寫入2,100MB/s\n◆隨機讀取400,000IOPS，隨機寫入300,000IOPS\n◆PCIe Gen3 x4\n◆支援新世代NVMe高速傳輸標準\n◆可安裝於有M.2插槽的桌機或筆電\n◆原廠五年保固",
+    "_image": "./Images/000001_1565315365.jpg"
+  },
+  {
+    "_id": 25,
+    "_name": "微星 GeForce GTX1660 AERO 6G OC 顯示卡",
+    "_price": 6990,
+    "_type": "顯示卡",
+    "_description": "◆ 顯示晶片 ：NVIDIA GeForce GTX1660\n◆ 記憶體 ：6GB GDDR5\n◆ 核心時脈 ：1830 MHz\n◆ 記憶體介面：192-bit\n◆ 最高解析度：7680x4320\n◆ 輸出端子 ：DP / HDMI / DVI\n◆ 電源連結器：1x 8-pin\n◆ 體積(長x寬x高)： 17.8 x 12.6 x 4.1cm",
+    "_image": "./Images/000001_1552364906.jpg"
+  },
+  {
+    "_id": 26,
+    "_name": "微星 GeForce GTX 1060 GAMING 6G 顯示卡",
+    "_price": 6990,
+    "_type": "顯示卡",
+    "_description": "◆ 顯示晶片 ：NVIDIA GeForce GTX 1060\n◆ 記憶體 ：6GB GDDR5\n◆ CUDA數 ：1280\n◆ 核心時脈 ：1468 MHz\n◆ 記憶體時脈：8008 MHz\n◆ 記憶體介面：192-bit\n◆ 輸出端子 ：3x DP / HDMI / DVI\n◆ 電源連結器：1x 8-pin\n◆ 體積(長x寬x高)：71.7 x 14.0 x 3.9cm",
+    "_image": "./Images/000001_1568197651.jpg"
+  },
+  {
+    "_id": 27,
+    "_name": "微星 GeForce GTX 1060 GAMING 3G 顯示卡",
+    "_price": 3990,
+    "_type": "顯示卡",
+    "_description": "◆ 顯示晶片 ：NVIDIA GeForce GTX 1060\n◆ 記憶體 ：6GB GDDR5\n◆ CUDA數 ：1280\n◆ 核心時脈 ：1468 MHz\n◆ 記憶體時脈：8008 MHz\n◆ 記憶體介面：192-bit\n◆ 輸出端子 ：3x DP / HDMI / DVI\n◆ 電源連結器：1x 8-pin\n◆ 體積(長x寬x高)：71.7 x 14.0 x 3.9cm",
+    "_image": "./Images/000001_1568197651.jpg"
+  },
+  {
+    "_id": 28,
+    "_name": "微星 GeForce GTX 1060 6GT OCV1 (雙風扇) 顯示卡",
+    "_price": 5990,
+    "_type": "顯示卡",
+    "_description": "核心/記憶體\n◆Boost Clock / Base Clock\n◆1759 MHz / 1544 MHz\n◆6GB GDDR5 / 8008 MHz Memory\n顯示輸出功能\n◆DisplayPort\n◆HDMI\n◆Dual-link DVI-D\n特色\n◆支援虛擬實境\n◆支援 DirectX 12\n◆軍規級用料",
+    "_image": "./Images/000001_1568944956.jpg"
+  },
+  {
+    "_id": 29,
+    "_name": "華碩 ASUS TUF GeForce GTX™ 1660 O6G GAMING 顯示卡",
+    "_price": 7090,
+    "_type": "顯示卡",
+    "_description": "◆ 顯示晶片 ：NVIDIA GeForce GTX1660\n◆ 記憶體 ：6GB GDDR5\n◆ 核心時脈 ：1845 MHz\n◆ 記憶體介面：192-bit\n◆ 最高解析度：7680x4320\n◆ 輸出端子 ：DP / HDMI / DVI\n◆ 電源連結器：1x 8-pin\n◆ 顯卡長度： 20.5 cm",
+    "_image": "./Images/000001_1561533315.jpg"
+  },
+  {
+    "_id": 30,
+    "_name": "技嘉 GeForce RTX 2080 SUPER GAMING OC 8G 顯示卡",
+    "_price": 26390,
+    "_type": "顯示卡",
+    "_description": "◆ 顯示晶片 ：GeForce® RTX 2080 SUPER™\n◆ 記憶體 ：8GB GDDR6\n◆ 記憶體介面：256-bit\n◆ 輸出端子 ：3x DP / 3x HDMI / 1x USB Type-C\n◆ 供電接口 ：1x 8pin , 1x 6pin\n◆ 顯示卡長度：28.5 x 11.4 x 5cm",
+    "_image": "./Images/000001_1563862848.jpg"
+  },
+  {
+    "_id": 31,
+    "_name": "Lenovo ideaCentre 九代i5雙碟電競機",
+    "_price": 24990,
+    "_type": "套裝電腦",
+    "_description": "限時→09/23 10:00止\n開始﹕０９／２０(星期五)１０：００\n結束﹕０９／２３(星期一)１０：００\n網路價$29990． 限時價↘$24990\n限時狂殺↘現買現省，數量有限！\n活動結束保證調回原價",
+    "_image": "./Images/000001_1568944457.jpg"
+  },
+  {
+    "_id": 32,
+    "_name": "Infinite 9SD-851TW",
+    "_price": 69990,
+    "_type": "套裝電腦",
+    "_description": "處理器：Intel Core i7-9700F 八核心處理器\n主機板晶片組：Intel B360\n顯示卡：NVIDIA GeForce RTX2070 8GB獨顯\n記憶體：16GB DDR4 2666MHz (8GBx2)\n固態硬碟：512GB PCIE SSD (512Gx1)\n標準硬碟：無\n光碟機：Slim Type(9.5mm) Tray-Load Super Multi\n作業系統：Windows 10 Home\n螢幕輸出介面：HDMI out\n保固：3年\n電源供應 : 500W 80 PLUS Bronze (ATX-Format)\n※本機器不含鍵盤滑鼠組，需另加購",
+    "_image": "./Images/000001_1566961971.jpg"
+  },
+  {
+    "_id": 33,
+    "_name": "DELL 9代i7八核Win10電腦",
+    "_price": 27990,
+    "_type": "套裝電腦",
+    "_description": "處理器：Intel® Core™ i7-9700\n晶片組：Intel® B360\n記憶體：12GB DDR4 2666MHz(8GB+4GB)(2 slot / 32GB)\n硬碟：M.2 256GB PCIe SSD\n顯示：Intel® UHD Graphics 630\n光碟機：DVD-RW\n作業系統：Windows 10 家用版\n其他：DW 1707 + BT4.0\n螢幕輸出介面：D-Sub(VGA)．HDMI\n保固：三年遠端診斷後到府服務\n※本機器不含螢幕傳輸線、螢幕轉接頭，請另購買",
+    "_image": "./Images/000001_1568167474.jpg"
+  },
+  {
+    "_id": 34,
+    "_name": "DELL 9代i7八核Win10電腦",
+    "_price": 27990,
+    "_type": "套裝電腦",
+    "_description": "處理器：Intel® Core™ i7-9700\n晶片組：Intel® B360\n記憶體：12GB DDR4 2666MHz(8GB+4GB)(2 slot / 32GB)\n硬碟：M.2 256GB PCIe SSD\n顯示：Intel® UHD Graphics 630\n光碟機：DVD-RW\n作業系統：Windows 10 家用版\n其他：DW 1707 + BT4.0\n螢幕輸出介面：D-Sub(VGA)．HDMI\n保固：三年遠端診斷後到府服務\n※本機器不含螢幕傳輸線、螢幕轉接頭，請另購買",
+    "_image": "./Images/000001_1568167474.jpg"
+  },
+  {
+    "_id": 35,
+    "_name": "DELL 9代i7八核Win10電腦",
+    "_price": 27990,
+    "_type": "套裝電腦",
+    "_description": "處理器：Intel® Core™ i7-9700\n晶片組：Intel® B360\n記憶體：12GB DDR4 2666MHz(8GB+4GB)(2 slot / 32GB)\n硬碟：M.2 256GB PCIe SSD\n顯示：Intel® UHD Graphics 630\n光碟機：DVD-RW\n作業系統：Windows 10 家用版\n其他：DW 1707 + BT4.0\n螢幕輸出介面：D-Sub(VGA)．HDMI\n保固：三年遠端診斷後到府服務\n※本機器不含螢幕傳輸線、螢幕轉接頭，請另購買",
+    "_image": "./Images/000001_1568167474.jpg"
+  },
+  {
+    "_id": 36,
+    "_name": "DELL 9代i7八核Win10電腦",
+    "_price": 27990,
+    "_type": "套裝電腦",
+    "_description": "處理器：Intel® Core™ i7-9700\n晶片組：Intel® B360\n記憶體：12GB DDR4 2666MHz(8GB+4GB)(2 slot / 32GB)\n硬碟：M.2 256GB PCIe SSD\n顯示：Intel® UHD Graphics 630\n光碟機：DVD-RW\n作業系統：Windows 10 家用版\n其他：DW 1707 + BT4.0\n螢幕輸出介面：D-Sub(VGA)．HDMI\n保固：三年遠端診斷後到府服務\n※本機器不含螢幕傳輸線、螢幕轉接頭，請另購買",
+    "_image": "./Images/000001_1568167474.jpg"
+  },
+  {
+    "_id": 37,
+    "_name": "Acer 22型8代i3四核Win10液晶電腦",
+    "_price": 20900,
+    "_type": "套裝電腦",
+    "_description": "處理器：Intel Core i3-8130U(2.5 GHz)\n螢幕：21.5\" / IPS面板(霧面) / 解析度1920 x 1080 / 非觸控\n記憶體：8G DDR4 2400MHz\n固態硬碟：256G M.2 SSD\n顯示介面：IntelR HD Graphics 620\n作業系統：Windows 10 家用版 (64 bit)\n光碟機：無\n螢幕輸出介面：HDMI Out\n網路：Gigabit乙太網路(RJ45)，802.11ac/b/g/n Wi-Fi無線網路，支援Bluetooth 4.0\n其它：SD讀卡機．網路攝影機\n鍵鼠組：有線鍵鼠組\n電源供應 : 65W 外接式電源供應器\n保固：三年保固",
+    "_image": "./Images/000001_1538475399.jpg"
+  }
 ]

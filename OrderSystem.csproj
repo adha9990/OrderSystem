@@ -33,9 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Web.Extensions" />
@@ -73,10 +70,7 @@
     <EmbeddedResource Include="View\Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="data.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="packages.config" />
+    <None Include="data.json" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -91,13 +85,37 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Images\a.png" />
-    <Content Include="Images\b.png" />
-    <Content Include="Images\c.png" />
-    <Content Include="Images\d.png" />
-    <Content Include="Images\e.png" />
-    <Content Include="Images\f.png" />
+    <Content Include="Images\000001_1522319870.jpg" />
+    <Content Include="Images\000001_1522394574.jpg" />
+    <Content Include="Images\000001_1522396005.jpg" />
+    <Content Include="Images\000001_1522636985.jpg" />
+    <Content Include="Images\000001_1522637090.jpg" />
+    <Content Include="Images\000001_1525840141.jpg" />
+    <Content Include="Images\000001_1538475399.jpg" />
+    <Content Include="Images\000001_1538478136.jpg" />
+    <Content Include="Images\000001_1540190118.jpg" />
+    <Content Include="Images\000001_1546423034.jpg" />
+    <Content Include="Images\000001_1548660821.jpg" />
+    <Content Include="Images\000001_1552364906.jpg" />
+    <Content Include="Images\000001_1553770758.jpg" />
+    <Content Include="Images\000001_1554877017.jpg" />
+    <Content Include="Images\000001_1556503850.jpg" />
+    <Content Include="Images\000001_1557718946.jpg" />
+    <Content Include="Images\000001_1558490422.jpg" />
+    <Content Include="Images\000001_1559530358.jpg" />
+    <Content Include="Images\000001_1561533315.jpg" />
+    <Content Include="Images\000001_1562574208.jpg" />
+    <Content Include="Images\000001_1563862848.jpg" />
+    <Content Include="Images\000001_1565315365.jpg" />
+    <Content Include="Images\000001_1565662226.jpg" />
+    <Content Include="Images\000001_1565662277.jpg" />
+    <Content Include="Images\000001_1566961971.jpg" />
+    <Content Include="Images\000001_1568167474.jpg" />
+    <Content Include="Images\000001_1568197651.jpg" />
+    <Content Include="Images\000001_1568693850.jpg" />
+    <Content Include="Images\000001_1568944457.jpg" />
+    <Content Include="Images\000001_1568944956.jpg" />
+    <Content Include="Images\000001_1568945698.jpg" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

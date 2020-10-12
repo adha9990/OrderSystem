@@ -27,7 +27,7 @@
             get;
             set;
         }
-        public string _imageLink
+        public string _image
         {
             get;
             set;
